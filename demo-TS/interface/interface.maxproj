@@ -1,9 +1,9 @@
 {
 	"name" : "interface",
 	"version" : 1,
-	"creationdate" : 3573048322,
-	"modificationdate" : 3573048326,
-	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
+	"creationdate" : -721918974,
+	"modificationdate" : -718123421,
+	"viewrect" : [ 274.0, 158.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -15,6 +15,25 @@
 				"local" : 1,
 				"toplevel" : 1
 			}
+,
+			"envoieOSCRegieAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"envoieOSCRegieVideo.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"receptionOSC.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+
+		}
+,
+		"externals" : 		{
 
 		}
 

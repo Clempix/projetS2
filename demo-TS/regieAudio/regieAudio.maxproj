@@ -1,9 +1,9 @@
 {
 	"name" : "regieAudio",
 	"version" : 1,
-	"creationdate" : -721919341,
-	"modificationdate" : 3574077625,
-	"viewrect" : [ 463.0, 116.0, 240.0, 500.0 ],
+	"creationdate" : -721919280,
+	"modificationdate" : -718125597,
+	"viewrect" : [ 170.0, 219.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -14,6 +14,34 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"lecteurAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"envoiAudioReseau.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Aide.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+
+		}
+,
+		"media" : 		{
+			"141.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"dinosaure.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
 			}
 
 		}
