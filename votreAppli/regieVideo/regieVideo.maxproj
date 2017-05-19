@@ -1,9 +1,9 @@
 {
 	"name" : "regieVideo",
 	"version" : 1,
-	"creationdate" : 3573048050,
-	"modificationdate" : 3573048054,
-	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
+	"creationdate" : -721919246,
+	"modificationdate" : -716935918,
+	"viewrect" : [ 132.0, 168.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -14,6 +14,34 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"lecteurVideo.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+
+		}
+,
+		"media" : 		{
+			"peinture.jpg" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"fumeeBleu.jpg" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"eau.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"poudreColoree.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
 			}
 
 		}
@@ -32,5 +60,6 @@
 	"amxdtype" : 1633771873,
 	"readonly" : 0,
 	"devpathtype" : 0,
-	"devpath" : "."
+	"devpath" : ".",
+	"sortmode" : 0
 }
