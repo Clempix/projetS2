@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 3,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 264.0, 112.0, 997.0, 675.0 ],
+		"rect" : [ 481.0, 188.0, 1282.0, 775.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -127,11 +127,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 347.0, 49.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -153,11 +153,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 166.0, 221.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -167,7 +167,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -314,9 +314,9 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 469.0, 215.0, 130.900009, 22.0 ],
+					"patching_rect" : [ 469.0, 215.0, 125.0, 22.0 ],
 					"style" : "",
-					"text" : "scale 1 100 20 1000"
+					"text" : "scale 1 100 250 1000"
 				}
 
 			}
@@ -344,7 +344,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 468.0, 129.0, 103.400002, 22.0 ],
+					"patching_rect" : [ 468.0, 129.0, 94.0, 22.0 ],
 					"style" : "",
 					"text" : "counter 2 1 100"
 				}
@@ -363,7 +363,7 @@
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 309.549988, 289.0, 383.0, 176.0 ],
-					"setfilter" : [ 0, 1, 1, 0, 0, 247.0, 0.646523, 2.583857, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"setfilter" : [ 0, 1, 1, 0, 0, 590.0, 0.646523, 2.583857, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -501,9 +501,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }

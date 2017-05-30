@@ -2,8 +2,8 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -716931297,
-	"viewrect" : [ 394.0, 149.0, 300.0, 500.0 ],
+	"modificationdate" : -715969863,
+	"viewrect" : [ 128.0, 231.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -14,6 +14,16 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"EffetEgaliseur.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"EffetWahWah.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"mainEffetAudio.maxpat" : 			{
@@ -30,10 +40,44 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"egaliseur_5b.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
 		"media" : 		{
+			"MUSICAL_CHANTS_FEMMES_OM.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"MUSICAL_CHANTS_FEMMES_MELODIE.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"MUSICAL_INSTRMENTS_GUITARE_AIGUE.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"MUSICAL_INSTRUMENT_GUITARE_HARMONIQUES.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"MUSICAL_INSTRUMENTS_GUITARE_BASSE.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"MUSICAL_INSTRUMENTS_PERCUSSIONS.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
 
 		}
 
