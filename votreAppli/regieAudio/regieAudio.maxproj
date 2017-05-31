@@ -2,8 +2,8 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -715969863,
-	"viewrect" : [ 128.0, 231.0, 300.0, 500.0 ],
+	"modificationdate" : -715884088,
+	"viewrect" : [ 524.0, 45.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -16,32 +16,7 @@
 				"toplevel" : 1
 			}
 ,
-			"EffetEgaliseur.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"EffetWahWah.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"mainEffetAudio.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"pedaleWahWah.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"gizmo_loadme.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"egaliseur_5b.maxpat" : 			{
+			"mixageAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
