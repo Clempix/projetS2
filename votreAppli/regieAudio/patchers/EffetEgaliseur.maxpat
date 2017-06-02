@@ -102,39 +102,8 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 203.0, 209.0, 130.0, 22.0 ],
-					"style" : "",
-					"text" : "egaliseur_5b.maxpat"
-				}
-
-			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
@@ -145,12 +114,6 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "egaliseur_5b.maxpat",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "MUSICAL_INSTRUMENT_GUITARE_HARMONIQUES.wav",
 				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/media",
 				"type" : "WAVE",
