@@ -16,6 +16,26 @@
 				"toplevel" : 1
 			}
 ,
+			"EssaieVideo.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"colorimetrie.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"miroir.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"mix.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"lecteurVideo.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
