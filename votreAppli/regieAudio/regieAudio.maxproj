@@ -2,8 +2,8 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -715881679,
-	"viewrect" : [ 96.0, 134.0, 300.0, 500.0 ],
+	"modificationdate" : -715265831,
+	"viewrect" : [ 147.0, 312.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -42,6 +42,11 @@
 			}
 ,
 			"ADSR.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"moduleEnvoiAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
