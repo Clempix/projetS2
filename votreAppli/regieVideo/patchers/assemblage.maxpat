@@ -106,7 +106,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 477.0, 230.0, 139.0, 22.0 ],
-					"presentation_rect" : [ 486.0, 295.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "jit.matrix 4 char 320 240"
 				}
@@ -120,7 +119,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 325.0, 230.0, 139.0, 22.0 ],
-					"presentation_rect" : [ 332.0, 296.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "jit.matrix 4 char 320 240"
 				}
@@ -134,7 +132,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 166.0, 230.0, 139.0, 22.0 ],
-					"presentation_rect" : [ 177.0, 296.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "jit.matrix 4 char 320 240"
 				}

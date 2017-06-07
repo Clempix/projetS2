@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 647.0, 87.0, 1013.0, 831.0 ],
+		"rect" : [ 633.0, 87.0, 1013.0, 831.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,30 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 193.0, 88.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "jit.pwindow",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 361.5, 611.0, 224.0, 168.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "newobj",
@@ -68,7 +92,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 306.5, 633.0, 277.0, 20.0 ],
+					"patching_rect" : [ 306.5, 40.0, 277.0, 20.0 ],
 					"style" : "",
 					"text" : "1 Ligne basse 2 ligne aigu 3 Melodie voix 4 percu "
 				}
@@ -79,8 +103,8 @@
 					"id" : "obj-16",
 					"maxclass" : "newobj",
 					"numinlets" : 4,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 6,
+					"outlettype" : [ "float", "float", "float", "", "", "" ],
 					"patching_rect" : [ 361.5, 65.0, 124.0, 22.0 ],
 					"style" : "",
 					"text" : "analyseAudio.maxpat"
@@ -186,10 +210,61 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 3,
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 2,
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 1,
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 0,
+					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -231,10 +306,40 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 0,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 1,
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
@@ -243,7 +348,18 @@
 					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 3 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 1,
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
@@ -252,52 +368,53 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-7", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
-			"obj-16::obj-49::obj-6::obj-19::obj-13" : [ "flonum[2]", "flonum", 0 ],
-			"obj-16::obj-49::obj-10::obj-19::obj-16" : [ "flonum[7]", "flonum[1]", 0 ],
-			"obj-16::obj-49::obj-22::obj-19::obj-16" : [ "flonum[13]", "flonum[1]", 0 ],
-			"obj-16::obj-49::obj-18::obj-19::obj-16" : [ "flonum[17]", "flonum[1]", 0 ],
-			"obj-16::obj-82::obj-6::obj-19::obj-16" : [ "flonum[23]", "flonum[1]", 0 ],
-			"obj-16::obj-82::obj-10::obj-19::obj-13" : [ "flonum[26]", "flonum", 0 ],
-			"obj-16::obj-82::obj-22::obj-19::obj-13" : [ "flonum[33]", "flonum", 0 ],
 			"obj-16::obj-49::obj-2::obj-19::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
-			"obj-16::obj-82::obj-18::obj-19::obj-16" : [ "flonum[36]", "flonum[1]", 0 ],
 			"obj-16::obj-49::obj-6::obj-19::obj-16" : [ "flonum[3]", "flonum[1]", 0 ],
 			"obj-16::obj-49::obj-14::obj-19::obj-13" : [ "flonum[8]", "flonum", 0 ],
 			"obj-16::obj-49::obj-22::obj-19::obj-13" : [ "flonum[12]", "flonum", 0 ],
-			"obj-16::obj-49::obj-16::obj-19::obj-13" : [ "flonum[18]", "flonum", 0 ],
+			"obj-16::obj-49::obj-16::obj-19::obj-16" : [ "flonum[19]", "flonum[1]", 0 ],
 			"obj-16::obj-82::obj-6::obj-19::obj-13" : [ "flonum[22]", "flonum", 0 ],
 			"obj-16::obj-82::obj-14::obj-19::obj-16" : [ "flonum[28]", "flonum[1]", 0 ],
-			"obj-16::obj-82::obj-22::obj-19::obj-16" : [ "flonum[32]", "flonum[1]", 0 ],
+			"obj-16::obj-82::obj-22::obj-19::obj-13" : [ "flonum[33]", "flonum", 0 ],
 			"obj-16::obj-82::obj-16::obj-19::obj-16" : [ "flonum[39]", "flonum[1]", 0 ],
-			"obj-16::obj-49::obj-8::obj-19::obj-16" : [ "flonum[4]", "flonum[1]", 0 ],
+			"obj-16::obj-7::obj-13" : [ "flonum[40]", "flonum", 0 ],
+			"obj-16::obj-49::obj-8::obj-19::obj-13" : [ "flonum[5]", "flonum", 0 ],
 			"obj-16::obj-49::obj-14::obj-19::obj-16" : [ "flonum[9]", "flonum[1]", 0 ],
 			"obj-16::obj-49::obj-20::obj-19::obj-13" : [ "flonum[15]", "flonum", 0 ],
-			"obj-16::obj-49::obj-16::obj-19::obj-16" : [ "flonum[19]", "flonum[1]", 0 ],
+			"obj-16::obj-49::obj-16::obj-19::obj-13" : [ "flonum[18]", "flonum", 0 ],
 			"obj-16::obj-82::obj-8::obj-19::obj-16" : [ "flonum[25]", "flonum[1]", 0 ],
 			"obj-16::obj-82::obj-14::obj-19::obj-13" : [ "flonum[29]", "flonum", 0 ],
-			"obj-16::obj-82::obj-20::obj-19::obj-13" : [ "flonum[34]", "flonum", 0 ],
+			"obj-16::obj-82::obj-20::obj-19::obj-16" : [ "flonum[35]", "flonum[1]", 0 ],
 			"obj-16::obj-82::obj-16::obj-19::obj-13" : [ "flonum[38]", "flonum", 0 ],
-			"obj-16::obj-49::obj-8::obj-19::obj-13" : [ "flonum[5]", "flonum", 0 ],
+			"obj-16::obj-49::obj-8::obj-19::obj-16" : [ "flonum[4]", "flonum[1]", 0 ],
 			"obj-16::obj-49::obj-24::obj-19::obj-13" : [ "flonum[11]", "flonum", 0 ],
 			"obj-16::obj-49::obj-20::obj-19::obj-16" : [ "flonum[14]", "flonum[1]", 0 ],
 			"obj-16::obj-82::obj-2::obj-19::obj-16" : [ "flonum[21]", "flonum[1]", 0 ],
 			"obj-16::obj-82::obj-8::obj-19::obj-13" : [ "flonum[24]", "flonum", 0 ],
 			"obj-16::obj-82::obj-24::obj-19::obj-16" : [ "flonum[30]", "flonum[1]", 0 ],
-			"obj-16::obj-82::obj-20::obj-19::obj-16" : [ "flonum[35]", "flonum[1]", 0 ],
-			"obj-16::obj-7::obj-13" : [ "flonum[40]", "flonum", 0 ],
+			"obj-16::obj-82::obj-20::obj-19::obj-13" : [ "flonum[34]", "flonum", 0 ],
 			"obj-16::obj-49::obj-2::obj-19::obj-13" : [ "flonum", "flonum", 0 ],
-			"obj-16::obj-49::obj-10::obj-19::obj-13" : [ "flonum[6]", "flonum", 0 ],
+			"obj-16::obj-49::obj-10::obj-19::obj-16" : [ "flonum[7]", "flonum[1]", 0 ],
 			"obj-16::obj-49::obj-24::obj-19::obj-16" : [ "flonum[10]", "flonum[1]", 0 ],
 			"obj-16::obj-49::obj-18::obj-19::obj-13" : [ "flonum[16]", "flonum", 0 ],
 			"obj-16::obj-82::obj-2::obj-19::obj-13" : [ "flonum[20]", "flonum", 0 ],
-			"obj-16::obj-82::obj-10::obj-19::obj-16" : [ "flonum[27]", "flonum[1]", 0 ],
+			"obj-16::obj-82::obj-10::obj-19::obj-13" : [ "flonum[26]", "flonum", 0 ],
 			"obj-16::obj-82::obj-24::obj-19::obj-13" : [ "flonum[31]", "flonum", 0 ],
+			"obj-16::obj-82::obj-18::obj-19::obj-16" : [ "flonum[36]", "flonum[1]", 0 ],
+			"obj-16::obj-49::obj-6::obj-19::obj-13" : [ "flonum[2]", "flonum", 0 ],
+			"obj-16::obj-49::obj-10::obj-19::obj-13" : [ "flonum[6]", "flonum", 0 ],
+			"obj-16::obj-49::obj-22::obj-19::obj-16" : [ "flonum[13]", "flonum[1]", 0 ],
+			"obj-16::obj-49::obj-18::obj-19::obj-16" : [ "flonum[17]", "flonum[1]", 0 ],
+			"obj-16::obj-82::obj-6::obj-19::obj-16" : [ "flonum[23]", "flonum[1]", 0 ],
+			"obj-16::obj-82::obj-10::obj-19::obj-16" : [ "flonum[27]", "flonum[1]", 0 ],
+			"obj-16::obj-82::obj-22::obj-19::obj-16" : [ "flonum[32]", "flonum[1]", 0 ],
 			"obj-16::obj-82::obj-18::obj-19::obj-13" : [ "flonum[37]", "flonum", 0 ],
 			"obj-16::obj-7::obj-16" : [ "flonum[41]", "flonum[1]", 0 ]
 		}
