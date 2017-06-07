@@ -2,8 +2,8 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -715700680,
-	"viewrect" : [ -4.0, 72.0, 300.0, 500.0 ],
+	"modificationdate" : -715262505,
+	"viewrect" : [ 52.0, 182.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -16,12 +16,7 @@
 				"toplevel" : 1
 			}
 ,
-			"EffetEgaliseur.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"egaliseur_5b.maxpat" : 			{
+			"transposition.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
