@@ -2,8 +2,8 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -715884088,
-	"viewrect" : [ 524.0, 45.0, 300.0, 500.0 ],
+	"modificationdate" : -715267889,
+	"viewrect" : [ 288.0, 217.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -24,32 +24,37 @@
 		}
 ,
 		"media" : 		{
-			"MUSICAL_CHANTS_FEMMES_OM.wav" : 			{
+			"LigneAigue.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
 			}
 ,
-			"MUSICAL_CHANTS_FEMMES_MELODIE.wav" : 			{
+			"HomeVoix.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
 			}
 ,
-			"MUSICAL_INSTRMENTS_GUITARE_AIGUE.wav" : 			{
+			"LigneBasse.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
 			}
 ,
-			"MUSICAL_INSTRUMENT_GUITARE_HARMONIQUES.wav" : 			{
+			"MelodieVoix.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
 			}
 ,
-			"MUSICAL_INSTRUMENTS_GUITARE_BASSE.wav" : 			{
+			"MUSICAL_.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
 			}
 ,
-			"MUSICAL_INSTRUMENTS_PERCUSSIONS.wav" : 			{
+			"NoteSeule.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"Percussions.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
 			}
