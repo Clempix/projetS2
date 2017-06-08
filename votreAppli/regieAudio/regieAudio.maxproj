@@ -3,12 +3,17 @@
 	"version" : 1,
 	"creationdate" : -721919280,
 <<<<<<< HEAD
+<<<<<<< HEAD
 	"modificationdate" : -715267889,
 	"viewrect" : [ 288.0, 217.0, 300.0, 500.0 ],
 =======
 	"modificationdate" : -715262505,
 	"viewrect" : [ 52.0, 182.0, 300.0, 500.0 ],
 >>>>>>> A3A
+=======
+	"modificationdate" : -715265831,
+	"viewrect" : [ 147.0, 312.0, 300.0, 500.0 ],
+>>>>>>> A5
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -46,6 +51,36 @@
 ,
 			"gizmo_loadme.maxpat" : 			{
 >>>>>>> A3A
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"mainSyntheseAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"syntheseSoustractive.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"osc.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"filtrage.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"ADSR.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"moduleEnvoiAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -120,6 +155,5 @@
 	"amxdtype" : 1633771873,
 	"readonly" : 0,
 	"devpathtype" : 0,
-	"devpath" : ".",
-	"sortmode" : 0
+	"devpath" : "."
 }

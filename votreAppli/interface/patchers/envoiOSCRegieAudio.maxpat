@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 42.0, 551.0, 641.0, 372.0 ],
+		"rect" : [ 207.0, 519.0, 641.0, 372.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -122,9 +122,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 485.0, 197.0, 111.0, 22.0 ],
-					"presentation_rect" : [ 485.0, 197.0, 0.0, 0.0 ],
 					"style" : "",
-					"text" : "/regieAudio/audio5"
+					"text" : "/regieAudio/audio6"
 				}
 
 			}
@@ -136,7 +135,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 443.0, 155.0, 111.0, 22.0 ],
-					"presentation_rect" : [ 443.0, 155.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "/regieAudio/audio5"
 				}
@@ -150,7 +148,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 396.0, 121.0, 111.0, 22.0 ],
-					"presentation_rect" : [ 461.0, 108.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "/regieAudio/audio4"
 				}
@@ -164,7 +161,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 267.0, 121.0, 111.0, 22.0 ],
-					"presentation_rect" : [ 334.0, 110.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "/regieAudio/audio3"
 				}
@@ -178,7 +174,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 138.0, 121.0, 111.0, 22.0 ],
-					"presentation_rect" : [ 204.0, 108.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "/regieAudio/audio2"
 				}

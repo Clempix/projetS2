@@ -38,6 +38,7 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+<<<<<<< HEAD
 					"comment" : "",
 					"id" : "obj-29",
 					"maxclass" : "outlet",
@@ -70,12 +71,21 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 140.0, 70.0, 30.0, 30.0 ],
+=======
+					"id" : "obj-11",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 315.0, 47.0, 24.0, 24.0 ],
+>>>>>>> A5
 					"style" : ""
 				}
 
 			}
 , 			{
 				"box" : 				{
+<<<<<<< HEAD
 					"comment" : "",
 					"id" : "obj-9",
 					"maxclass" : "inlet",
@@ -83,12 +93,21 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 573.0, 70.0, 30.0, 30.0 ],
+=======
+					"id" : "obj-9",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 138.0, 38.0, 24.0, 24.0 ],
+>>>>>>> A5
 					"style" : ""
 				}
 
 			}
 , 			{
 				"box" : 				{
+<<<<<<< HEAD
 					"comment" : "",
 					"id" : "obj-7",
 					"maxclass" : "inlet",
@@ -96,12 +115,21 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 474.0, 70.0, 30.0, 30.0 ],
+=======
+					"id" : "obj-7",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 242.0, 33.0, 24.0, 24.0 ],
+>>>>>>> A5
 					"style" : ""
 				}
 
 			}
 , 			{
 				"box" : 				{
+<<<<<<< HEAD
 					"comment" : "",
 					"id" : "obj-5",
 					"maxclass" : "inlet",
@@ -109,12 +137,20 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 300.0, 70.0, 30.0, 30.0 ],
+=======
+					"id" : "obj-5",
+					"maxclass" : "ezdac~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 300.0, 400.0, 45.0, 45.0 ],
+>>>>>>> A5
 					"style" : ""
 				}
 
 			}
 , 			{
 				"box" : 				{
+<<<<<<< HEAD
 					"comment" : "",
 					"id" : "obj-3",
 					"maxclass" : "inlet",
@@ -123,18 +159,36 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 217.0, 70.0, 30.0, 30.0 ],
 					"style" : ""
+=======
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 138.0, 93.0, 158.0, 22.0 ],
+					"style" : "",
+					"text" : "mainSyntheseAudio.maxpat"
+>>>>>>> A5
 				}
 
 			}
 , 			{
 				"box" : 				{
+<<<<<<< HEAD
 					"id" : "obj-1",
+=======
+					"id" : "obj-2",
+>>>>>>> A5
 					"maxclass" : "live.gain~",
 					"numinlets" : 2,
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
+<<<<<<< HEAD
 					"patching_rect" : [ 319.0, 165.0, 48.0, 136.0 ],
+=======
+					"patching_rect" : [ 300.0, 189.0, 48.0, 136.0 ],
+>>>>>>> A5
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -155,6 +209,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+<<<<<<< HEAD
 					"destination" : [ "obj-29", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -165,6 +220,9 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+=======
+					"destination" : [ "obj-3", 2 ],
+>>>>>>> A5
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-11", 0 ]
@@ -173,34 +231,59 @@
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< HEAD
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-13", 0 ]
+=======
+					"destination" : [ "obj-5", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
+>>>>>>> A5
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< HEAD
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-3", 0 ]
+=======
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
+>>>>>>> A5
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< HEAD
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
+=======
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
+>>>>>>> A5
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< HEAD
 					"destination" : [ "obj-1", 0 ],
+=======
+					"destination" : [ "obj-3", 1 ],
+>>>>>>> A5
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-7", 0 ]
@@ -209,7 +292,11 @@
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< HEAD
 					"destination" : [ "obj-1", 0 ],
+=======
+					"destination" : [ "obj-3", 0 ],
+>>>>>>> A5
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-9", 0 ]
@@ -218,10 +305,47 @@
 			}
  ],
 		"parameters" : 		{
+<<<<<<< HEAD
 			"obj-1" : [ "live.gain~", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],
+=======
+			"obj-2" : [ "live.gain~", "live.gain~", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "mainSyntheseAudio.maxpat",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "syntheseSoustractive.maxpat",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "osc.maxpat",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "filtrage.maxpat",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ADSR.maxpat",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+>>>>>>> A5
 		"autosave" : 0
 	}
 
