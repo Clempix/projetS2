@@ -1,44 +1,22 @@
 {
 	"name" : "regieAudio",
 	"version" : 1,
-	"creationdate" : -721919280,
-<<<<<<< HEAD
-<<<<<<< HEAD
-	"modificationdate" : -715881679,
-	"viewrect" : [ 96.0, 134.0, 300.0, 500.0 ],
-=======
-	"modificationdate" : -715267889,
-	"viewrect" : [ 288.0, 217.0, 300.0, 500.0 ],
->>>>>>> master
-=======
-<<<<<<< HEAD
-	"modificationdate" : -715267889,
-	"viewrect" : [ 288.0, 217.0, 300.0, 500.0 ],
-=======
-	"modificationdate" : -715262505,
-	"viewrect" : [ 52.0, 182.0, 300.0, 500.0 ],
->>>>>>> A3A
-=======
-	"modificationdate" : -715265831,
-	"viewrect" : [ 147.0, 312.0, 300.0, 500.0 ],
->>>>>>> A5
->>>>>>> master
+	"creationdate" : -715180507,
+	"modificationdate" : -715175623,
+	"viewrect" : [ 28.0, 45.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"main.maxpat" : 			{
+			"ADSR.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
 			}
 ,
-<<<<<<< HEAD
-			"mixageAudio.maxpat" : 			{
-=======
-			"transposition.maxpat" : 			{
+			"lecteurAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -48,18 +26,17 @@
 				"local" : 1
 			}
 ,
-			"pedaleWahWah.maxpat" : 			{
+			"filtrage.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"mainEffetAudio.maxpat" : 			{
+			"main.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"gizmo_loadme.maxpat" : 			{
->>>>>>> A3A
+			"mixageAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -79,17 +56,22 @@
 				"local" : 1
 			}
 ,
-			"filtrage.maxpat" : 			{
+			"pedaleWahWah.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"ADSR.maxpat" : 			{
+			"receptionOSC.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"moduleEnvoiAudio.maxpat" : 			{
+			"transposition.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"envoiAudioReseau.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -97,56 +79,39 @@
 		}
 ,
 		"media" : 		{
-<<<<<<< HEAD
-			"LigneAigue.wav" : 			{
-				"kind" : "audiofile",
-				"local" : 1
-			}
-,
-			"HomeVoix.wav" : 			{
-=======
-			"MUSICAL_INSTRUMENT_GUITARE_HARMONIQUES.wav" : 			{
->>>>>>> A3A
-				"kind" : "audiofile",
-				"local" : 1
-			}
-,
-<<<<<<< HEAD
-			"LigneBasse.wav" : 			{
-=======
-			"MUSICAL_CHANTS_FEMMES_OM.wav" : 			{
->>>>>>> A3A
-				"kind" : "audiofile",
-				"local" : 1
-			}
-,
-<<<<<<< HEAD
-			"MelodieVoix.wav" : 			{
-=======
 			"MUSICAL_CHANTS_FEMMES_MELODIE.wav" : 			{
->>>>>>> A3A
 				"kind" : "audiofile",
 				"local" : 1
 			}
 ,
-<<<<<<< HEAD
-			"MUSICAL_.wav" : 			{
-=======
+			"MUSICAL_CHANTS_FEMMES_OM.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
 			"MUSICAL_INSTRMENTS_GUITARE_AIGUE.wav" : 			{
->>>>>>> A3A
 				"kind" : "audiofile",
 				"local" : 1
 			}
 ,
-			"NoteSeule.wav" : 			{
+			"MUSICAL_INSTRUMENT_GUITARE_HARMONIQUES.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
 			}
 ,
-			"Percussions.wav" : 			{
+			"MUSICAL_INSTRUMENTS_GUITARE_BASSE.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
 			}
+,
+			"MUSICAL_INSTRUMENTS_PERCUSSIONS.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+
+		}
+,
+		"externals" : 		{
 
 		}
 
