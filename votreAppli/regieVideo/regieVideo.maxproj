@@ -2,7 +2,11 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
+<<<<<<< HEAD
 	"modificationdate" : -715965048,
+=======
+	"modificationdate" : -715264326,
+>>>>>>> v52
 	"viewrect" : [ 19.0, 64.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -21,47 +25,93 @@
 				"local" : 1
 			}
 ,
+<<<<<<< HEAD
 			"analyseAudio.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
+=======
 			"analyseSpectrale_10b.maxpat" : 			{
+>>>>>>> v52
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
+<<<<<<< HEAD
+			"analyseSpectrale_10b.maxpat" : 			{
+=======
 			"analyseSpectrale_1b.maxpat" : 			{
+>>>>>>> v52
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"assemblage.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
+<<<<<<< HEAD
+			"analyseSpectrale_1b.maxpat" : 			{
+=======
 			"filtreBande.maxpat" : 			{
+>>>>>>> v52
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
+<<<<<<< HEAD
+			"assemblage.maxpat" : 			{
+=======
 			"detectionEnveloppe.maxpat" : 			{
+>>>>>>> v52
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
+<<<<<<< HEAD
+			"filtreBande.maxpat" : 			{
+=======
 			"pitchDetection.maxpat" : 			{
+>>>>>>> v52
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
+<<<<<<< HEAD
+			"detectionEnveloppe.maxpat" : 			{
+=======
 			"receptionAudioReseau.maxpat" : 			{
+>>>>>>> v52
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
+<<<<<<< HEAD
+			"pitchDetection.maxpat" : 			{
+=======
+			"miroir.maxpat" : 			{
+>>>>>>> v52
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+<<<<<<< HEAD
+			"receptionAudioReseau.maxpat" : 			{
+=======
+			"colorimetrie.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"mix.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"decomposition.maxpat" : 			{
+>>>>>>> v52
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+<<<<<<< HEAD
 			"routerAudio.maxpat" : 			{
+=======
+			"EssaieVideo.maxpat" : 			{
+>>>>>>> v52
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -76,6 +126,11 @@
 ,
 			"fumeeBleu.jpg" : 			{
 				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"LigneBasse.wav" : 			{
+				"kind" : "audiofile",
 				"local" : 1
 			}
 ,
