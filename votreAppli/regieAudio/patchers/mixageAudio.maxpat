@@ -39,6 +39,7 @@
 		"boxes" : [ 			{
 				"box" : 				{
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"id" : "obj-11",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -46,6 +47,8 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 315.0, 47.0, 24.0, 24.0 ],
 =======
+=======
+>>>>>>> master
 					"comment" : "",
 					"id" : "obj-29",
 					"maxclass" : "outlet",
@@ -87,19 +90,16 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 140.0, 70.0, 30.0, 30.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
-					"id" : "obj-9",
-					"maxclass" : "inlet",
-					"numinlets" : 0,
+<<<<<<< HEAD
+=======
+=======
+					"id" : "obj-11",
+					"maxclass" : "button",
+					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 573.0, 70.0, 30.0, 30.0 ],
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 315.0, 47.0, 24.0, 24.0 ],
+>>>>>>> A5
 >>>>>>> master
 					"style" : ""
 				}
@@ -107,6 +107,36 @@
 			}
 , 			{
 				"box" : 				{
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
+					"comment" : "",
+					"id" : "obj-9",
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 573.0, 70.0, 30.0, 30.0 ],
+<<<<<<< HEAD
+>>>>>>> master
+=======
+=======
+					"id" : "obj-9",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 138.0, 38.0, 24.0, 24.0 ],
+>>>>>>> A5
+>>>>>>> master
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+<<<<<<< HEAD
 <<<<<<< HEAD
 					"id" : "obj-7",
 					"maxclass" : "button",
@@ -115,6 +145,8 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 242.0, 33.0, 24.0, 24.0 ],
 =======
+=======
+>>>>>>> master
 					"comment" : "",
 					"id" : "obj-7",
 					"maxclass" : "inlet",
@@ -122,6 +154,17 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 474.0, 70.0, 30.0, 30.0 ],
+<<<<<<< HEAD
+>>>>>>> master
+=======
+=======
+					"id" : "obj-7",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 242.0, 33.0, 24.0, 24.0 ],
+>>>>>>> A5
 >>>>>>> master
 					"style" : ""
 				}
@@ -129,6 +172,7 @@
 			}
 , 			{
 				"box" : 				{
+<<<<<<< HEAD
 <<<<<<< HEAD
 					"id" : "obj-5",
 					"maxclass" : "ezdac~",
@@ -136,6 +180,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 300.0, 400.0, 45.0, 45.0 ],
 =======
+=======
+>>>>>>> master
 					"comment" : "",
 					"id" : "obj-5",
 					"maxclass" : "inlet",
@@ -143,6 +189,16 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 300.0, 70.0, 30.0, 30.0 ],
+<<<<<<< HEAD
+>>>>>>> master
+=======
+=======
+					"id" : "obj-5",
+					"maxclass" : "ezdac~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 300.0, 400.0, 45.0, 45.0 ],
+>>>>>>> A5
 >>>>>>> master
 					"style" : ""
 				}
@@ -151,6 +207,18 @@
 , 			{
 				"box" : 				{
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+					"comment" : "",
+					"id" : "obj-3",
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 217.0, 70.0, 30.0, 30.0 ],
+					"style" : ""
+=======
+>>>>>>> master
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -159,6 +227,7 @@
 					"patching_rect" : [ 138.0, 93.0, 158.0, 22.0 ],
 					"style" : "",
 					"text" : "mainSyntheseAudio.maxpat"
+<<<<<<< HEAD
 =======
 					"comment" : "",
 					"id" : "obj-3",
@@ -169,15 +238,25 @@
 					"patching_rect" : [ 217.0, 70.0, 30.0, 30.0 ],
 					"style" : ""
 >>>>>>> master
+=======
+>>>>>>> A5
+>>>>>>> master
 				}
 
 			}
 , 			{
 				"box" : 				{
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"id" : "obj-2",
 =======
 					"id" : "obj-1",
+>>>>>>> master
+=======
+					"id" : "obj-1",
+=======
+					"id" : "obj-2",
+>>>>>>> A5
 >>>>>>> master
 					"maxclass" : "live.gain~",
 					"numinlets" : 2,
@@ -185,9 +264,16 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"patching_rect" : [ 300.0, 189.0, 48.0, 136.0 ],
 =======
 					"patching_rect" : [ 319.0, 165.0, 48.0, 136.0 ],
+>>>>>>> master
+=======
+					"patching_rect" : [ 319.0, 165.0, 48.0, 136.0 ],
+=======
+					"patching_rect" : [ 300.0, 189.0, 48.0, 136.0 ],
+>>>>>>> A5
 >>>>>>> master
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -210,11 +296,14 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"destination" : [ "obj-3", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-11", 0 ]
 =======
+=======
+>>>>>>> master
 					"destination" : [ "obj-29", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -231,7 +320,12 @@
 					"hidden" : 0,
 					"source" : [ "obj-2", 0 ]
 =======
+<<<<<<< HEAD
 					"destination" : [ "obj-1", 0 ],
+=======
+					"destination" : [ "obj-3", 2 ],
+>>>>>>> A5
+>>>>>>> master
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-11", 0 ]
@@ -242,7 +336,11 @@
 , 			{
 				"patchline" : 				{
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"destination" : [ "obj-5", 0 ],
+=======
+					"destination" : [ "obj-1", 0 ],
+>>>>>>> master
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-2", 0 ]
@@ -250,7 +348,12 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+<<<<<<< HEAD
 					"source" : [ "obj-13", 0 ]
+>>>>>>> master
+=======
+					"source" : [ "obj-2", 0 ]
+>>>>>>> A5
 >>>>>>> master
 				}
 
@@ -258,31 +361,63 @@
 , 			{
 				"patchline" : 				{
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"destination" : [ "obj-2", 0 ],
 =======
+=======
+>>>>>>> master
 					"destination" : [ "obj-1", 0 ],
 >>>>>>> master
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-3", 0 ]
+<<<<<<< HEAD
+=======
+=======
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
+>>>>>>> A5
+>>>>>>> master
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"destination" : [ "obj-3", 1 ],
 =======
+=======
+>>>>>>> master
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
+<<<<<<< HEAD
+=======
+=======
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
+>>>>>>> A5
+>>>>>>> master
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< HEAD
 					"destination" : [ "obj-1", 0 ],
+>>>>>>> master
+=======
+<<<<<<< HEAD
+					"destination" : [ "obj-1", 0 ],
+=======
+					"destination" : [ "obj-3", 1 ],
+>>>>>>> A5
 >>>>>>> master
 					"disabled" : 0,
 					"hidden" : 0,
@@ -293,9 +428,16 @@
 , 			{
 				"patchline" : 				{
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"destination" : [ "obj-3", 0 ],
 =======
 					"destination" : [ "obj-1", 0 ],
+>>>>>>> master
+=======
+					"destination" : [ "obj-1", 0 ],
+=======
+					"destination" : [ "obj-3", 0 ],
+>>>>>>> A5
 >>>>>>> master
 					"disabled" : 0,
 					"hidden" : 0,
@@ -306,6 +448,14 @@
  ],
 		"parameters" : 		{
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+			"obj-1" : [ "live.gain~", "live.gain~", 0 ]
+		}
+,
+		"dependency_cache" : [  ],
+=======
+>>>>>>> master
 			"obj-2" : [ "live.gain~", "live.gain~", 0 ]
 		}
 ,
@@ -340,11 +490,15 @@
 				"implicit" : 1
 			}
  ],
+<<<<<<< HEAD
 =======
 			"obj-1" : [ "live.gain~", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],
+>>>>>>> master
+=======
+>>>>>>> A5
 >>>>>>> master
 		"autosave" : 0
 	}
