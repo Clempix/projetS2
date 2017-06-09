@@ -2,8 +2,8 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -715180507,
-	"modificationdate" : -715175623,
-	"viewrect" : [ 28.0, 45.0, 300.0, 500.0 ],
+	"modificationdate" : -715126519,
+	"viewrect" : [ -5.0, 110.0, 300.0, 674.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -56,7 +56,7 @@
 				"local" : 1
 			}
 ,
-			"pedaleWahWah.maxpat" : 			{
+			"envoiAudioReseau.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -66,12 +66,12 @@
 				"local" : 1
 			}
 ,
-			"transposition.maxpat" : 			{
+			"pedaleWahWah.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"envoiAudioReseau.maxpat" : 			{
+			"transposition.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
