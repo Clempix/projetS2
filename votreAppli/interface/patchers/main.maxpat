@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 158.0, 214.0, 1281.0, 511.0 ],
+		"rect" : [ 183.0, 314.0, 1281.0, 511.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,12 +38,120 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-41",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1106.0, 37.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "note de synthèse"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-37",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 929.0, 37.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "percussions"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-33",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 758.0, 29.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "guitare basse"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-29",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 592.0, 29.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "guitare harmoniques"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 392.0, 37.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "guitare ligne aigue"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 196.0, 33.0, 132.0, 20.0 ],
+					"style" : "",
+					"text" : "Chant femmes mélodie"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 9.0, 33.0, 115.0, 20.0 ],
+					"style" : "",
+					"text" : "Chant femmes om"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1135.0, 73.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1106.0, 73.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-19",
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1052.0, 73.0, 24.0, 24.0 ],
+					"patching_rect" : [ 1024.0, 64.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -112,7 +220,7 @@
 				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
-					"numinlets" : 24,
+					"numinlets" : 28,
 					"numoutlets" : 0,
 					"patching_rect" : [ 283.0, 372.0, 531.0, 22.0 ],
 					"style" : "",
@@ -140,7 +248,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1020.0, 73.0, 24.0, 24.0 ],
+					"patching_rect" : [ 992.0, 64.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -152,7 +260,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 989.0, 73.0, 24.0, 24.0 ],
+					"patching_rect" : [ 961.0, 64.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -164,7 +272,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 960.0, 73.0, 24.0, 24.0 ],
+					"patching_rect" : [ 932.0, 64.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -555,6 +663,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 25 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 11 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -568,6 +685,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 24 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
