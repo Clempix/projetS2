@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -40,12 +40,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-94",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 967.0, 28.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 1095.0, 37.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -54,12 +54,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-95",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 929.0, 28.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 1057.0, 37.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -68,12 +68,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-96",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 886.0, 28.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 1014.0, 37.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -82,12 +82,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-97",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 847.0, 28.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 975.0, 37.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -100,7 +100,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 983.0, 207.0, 200.0, 22.0 ],
-					"presentation_rect" : [ 1111.0, 216.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "/regieVideo/audio5/envoiReseau $1"
 				}
@@ -114,7 +113,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 912.0, 170.0, 153.0, 22.0 ],
-					"presentation_rect" : [ 1040.0, 179.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "/regieVideo/audio5/loop $1"
 				}
@@ -128,7 +126,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 886.0, 129.0, 160.0, 22.0 ],
-					"presentation_rect" : [ 1014.0, 138.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "/regieVideo/audio5/lecture 0"
 				}
@@ -142,7 +139,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 847.0, 87.0, 160.0, 22.0 ],
-					"presentation_rect" : [ 975.0, 96.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "/regieVideo/audio5/lecture 1"
 				}
@@ -152,12 +148,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-86",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1037.0, 280.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 963.0, 272.0, 0.0, 0.0 ],
+					"patching_rect" : [ 1156.0, 28.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -166,12 +162,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-87",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 999.0, 280.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 925.0, 272.0, 0.0, 0.0 ],
+					"patching_rect" : [ 1118.0, 28.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -180,12 +176,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-88",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 956.0, 280.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 882.0, 272.0, 0.0, 0.0 ],
+					"patching_rect" : [ 1075.0, 28.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -194,12 +190,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-89",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 917.0, 280.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 843.0, 272.0, 0.0, 0.0 ],
+					"patching_rect" : [ 1036.0, 28.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -211,8 +207,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1053.0, 459.0, 200.0, 22.0 ],
-					"presentation_rect" : [ 979.0, 451.0, 0.0, 0.0 ],
+					"patching_rect" : [ 1172.0, 207.0, 200.0, 22.0 ],
 					"style" : "",
 					"text" : "/regieVideo/audio6/envoiReseau $1"
 				}
@@ -225,8 +220,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 982.0, 422.0, 153.0, 22.0 ],
-					"presentation_rect" : [ 908.0, 414.0, 0.0, 0.0 ],
+					"patching_rect" : [ 1101.0, 170.0, 153.0, 22.0 ],
 					"style" : "",
 					"text" : "/regieVideo/audio6/loop $1"
 				}
@@ -239,8 +233,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 956.0, 381.0, 160.0, 22.0 ],
-					"presentation_rect" : [ 882.0, 373.0, 0.0, 0.0 ],
+					"patching_rect" : [ 1075.0, 129.0, 160.0, 22.0 ],
 					"style" : "",
 					"text" : "/regieVideo/audio6/lecture 0"
 				}
@@ -253,8 +246,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 917.0, 339.0, 160.0, 22.0 ],
-					"presentation_rect" : [ 843.0, 331.0, 0.0, 0.0 ],
+					"patching_rect" : [ 1036.0, 87.0, 160.0, 22.0 ],
 					"style" : "",
 					"text" : "/regieVideo/audio6/lecture 1"
 				}
@@ -264,12 +256,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-78",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 746.0, 28.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 745.0, 25.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -278,12 +270,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-79",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 708.0, 28.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 707.0, 25.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -292,12 +284,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-80",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 665.0, 28.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 664.0, 25.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -306,12 +298,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-81",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 626.0, 28.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 625.0, 25.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -324,7 +316,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 762.0, 207.0, 200.0, 22.0 ],
-					"presentation_rect" : [ 836.0, 198.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "/regieVideo/audio4/envoiReseau $1"
 				}
@@ -338,7 +329,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 691.0, 170.0, 153.0, 22.0 ],
-					"presentation_rect" : [ 789.0, 162.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "/regieVideo/audio4/loop $1"
 				}
@@ -352,7 +342,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 665.0, 129.0, 160.0, 22.0 ],
-					"presentation_rect" : [ 717.0, 125.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "/regieVideo/audio4/lecture 0"
 				}
@@ -366,7 +355,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 626.0, 87.0, 160.0, 22.0 ],
-					"presentation_rect" : [ 625.0, 84.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "/regieVideo/audio4/lecture 1"
 				}
@@ -390,8 +378,8 @@
 					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 1242.0, 760.0, 85.0, 35.0 ],
 					"style" : "",
 					"text" : "OSC-route /envoiReseau"
@@ -428,8 +416,8 @@
 					"id" : "obj-62",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 1190.0, 826.0, 97.0, 22.0 ],
 					"style" : "",
 					"text" : "OSC-route /loop"
@@ -453,8 +441,8 @@
 					"id" : "obj-56",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 1216.0, 712.0, 111.0, 22.0 ],
 					"style" : "",
 					"text" : "OSC-route /lecture"
@@ -466,8 +454,8 @@
 					"id" : "obj-55",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 1216.0, 673.0, 111.0, 22.0 ],
 					"style" : "",
 					"text" : "OSC-route /audio3"
@@ -479,8 +467,8 @@
 					"id" : "obj-54",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 1195.0, 630.0, 132.0, 22.0 ],
 					"style" : "",
 					"text" : "OSC-route /regieVideo"
@@ -516,12 +504,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-36",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 540.0, 67.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 543.0, 67.0, 0.0, 0.0 ],
+					"patching_rect" : [ 550.0, 28.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -530,12 +518,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-37",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 502.0, 67.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 505.0, 67.0, 0.0, 0.0 ],
+					"patching_rect" : [ 512.0, 28.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -544,12 +532,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-38",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 459.0, 67.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 462.0, 67.0, 0.0, 0.0 ],
+					"patching_rect" : [ 469.0, 28.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -558,12 +546,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-39",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 420.0, 67.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 423.0, 67.0, 0.0, 0.0 ],
+					"patching_rect" : [ 430.0, 28.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -575,8 +563,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 631.0, 240.0, 200.0, 22.0 ],
-					"presentation_rect" : [ 634.0, 240.0, 0.0, 0.0 ],
+					"patching_rect" : [ 641.0, 201.0, 200.0, 22.0 ],
 					"style" : "",
 					"text" : "/regieVideo/audio3/envoiReseau $1"
 				}
@@ -589,8 +576,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 585.0, 207.0, 153.0, 22.0 ],
-					"presentation_rect" : [ 587.0, 204.0, 0.0, 0.0 ],
+					"patching_rect" : [ 595.0, 168.0, 153.0, 22.0 ],
 					"style" : "",
 					"text" : "/regieVideo/audio3/loop $1"
 				}
@@ -603,8 +589,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 512.0, 167.0, 160.0, 22.0 ],
-					"presentation_rect" : [ 515.0, 167.0, 0.0, 0.0 ],
+					"patching_rect" : [ 522.0, 128.0, 160.0, 22.0 ],
 					"style" : "",
 					"text" : "/regieVideo/audio3/lecture 0"
 				}
@@ -617,8 +602,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 420.0, 126.0, 160.0, 22.0 ],
-					"presentation_rect" : [ 423.0, 126.0, 0.0, 0.0 ],
+					"patching_rect" : [ 430.0, 87.0, 160.0, 22.0 ],
 					"style" : "",
 					"text" : "/regieVideo/audio3/lecture 1"
 				}
@@ -628,11 +612,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-35",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 315.0, 85.0, 30.0, 30.0 ],
+					"patching_rect" : [ 352.0, 28.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -641,11 +626,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-33",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 277.0, 85.0, 30.0, 30.0 ],
+					"patching_rect" : [ 314.0, 28.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -654,11 +640,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-31",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 234.0, 85.0, 30.0, 30.0 ],
+					"patching_rect" : [ 271.0, 28.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -667,11 +654,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-29",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 85.0, 30.0, 30.0 ],
+					"patching_rect" : [ 232.0, 28.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -680,11 +668,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-27",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 130.0, 109.0, 30.0, 30.0 ],
+					"patching_rect" : [ 154.0, 28.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -693,11 +682,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-25",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.0, 109.0, 30.0, 30.0 ],
+					"patching_rect" : [ 114.0, 28.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -706,11 +696,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-23",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 51.0, 109.0, 30.0, 30.0 ],
+					"patching_rect" : [ 75.0, 28.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -719,11 +710,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-21",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 109.0, 30.0, 30.0 ],
+					"patching_rect" : [ 36.0, 28.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -735,7 +727,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 406.0, 258.0, 200.0, 22.0 ],
+					"patching_rect" : [ 443.0, 201.0, 200.0, 22.0 ],
 					"style" : "",
 					"text" : "/regieVideo/audio2/envoiReseau $1"
 				}
@@ -748,7 +740,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 359.0, 222.0, 153.0, 22.0 ],
+					"patching_rect" : [ 396.0, 165.0, 153.0, 22.0 ],
 					"style" : "",
 					"text" : "/regieVideo/audio2/loop $1"
 				}
@@ -761,7 +753,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 287.0, 185.0, 160.0, 22.0 ],
+					"patching_rect" : [ 324.0, 128.0, 160.0, 22.0 ],
 					"style" : "",
 					"text" : "/regieVideo/audio2/lecture 0"
 				}
@@ -774,7 +766,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 144.0, 160.0, 22.0 ],
+					"patching_rect" : [ 232.0, 87.0, 160.0, 22.0 ],
 					"style" : "",
 					"text" : "/regieVideo/audio2/lecture 1"
 				}
@@ -787,8 +779,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 253.0, 316.0, 200.0, 22.0 ],
-					"presentation_rect" : [ 270.0, 246.0, 0.0, 0.0 ],
+					"patching_rect" : [ 277.0, 235.0, 200.0, 22.0 ],
 					"style" : "",
 					"text" : "/regieVideo/audio1/envoiReseau $1"
 				}
@@ -801,8 +792,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 206.0, 281.0, 153.0, 22.0 ],
-					"presentation_rect" : [ 223.0, 210.0, 0.0, 0.0 ],
+					"patching_rect" : [ 230.0, 200.0, 153.0, 22.0 ],
 					"style" : "",
 					"text" : "/regieVideo/audio1/loop $1"
 				}
@@ -815,8 +805,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 135.0, 244.0, 160.0, 22.0 ],
-					"presentation_rect" : [ 167.0, 178.0, 0.0, 0.0 ],
+					"patching_rect" : [ 159.0, 163.0, 160.0, 22.0 ],
 					"style" : "",
 					"text" : "/regieVideo/audio1/lecture 0"
 				}
@@ -829,7 +818,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 207.0, 160.0, 22.0 ],
+					"patching_rect" : [ 64.0, 126.0, 160.0, 22.0 ],
 					"style" : "",
 					"text" : "/regieVideo/audio1/lecture 1"
 				}
@@ -1105,6 +1094,7 @@
 					"destination" : [ "obj-56", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-55", 0 ]
 				}
 
@@ -1114,6 +1104,7 @@
 					"destination" : [ "obj-62", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 2,
 					"source" : [ "obj-55", 0 ]
 				}
 
@@ -1123,6 +1114,7 @@
 					"destination" : [ "obj-71", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-55", 0 ]
 				}
 
@@ -1132,6 +1124,7 @@
 					"destination" : [ "obj-61", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-56", 0 ]
 				}
 
@@ -1141,6 +1134,7 @@
 					"destination" : [ "obj-66", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-56", 0 ]
 				}
 
@@ -1362,11 +1356,7 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "OSC-route.mxo",
-				"type" : "iLaX"
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
 
