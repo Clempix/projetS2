@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 2,
-			"revision" : 4,
-			"architecture" : "x64",
+			"minor" : 3,
+			"revision" : 3,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 327.0, 145.0, 640.0, 480.0 ],
+		"rect" : [ 329.0, 147.0, 638.0, 478.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -64,6 +64,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -76,6 +77,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -110,7 +112,7 @@
 					"outlettype" : [ "jit_matrix", "", "" ],
 					"patching_rect" : [ 239.0, 143.0, 131.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.net.recv @port 8002"
+					"text" : "jit.net.recv @port 8003"
 				}
 
 			}

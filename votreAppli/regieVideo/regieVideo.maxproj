@@ -2,7 +2,7 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -714869654,
+	"modificationdate" : -714868559,
 	"viewrect" : [ 19.0, 64.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -16,11 +16,6 @@
 				"toplevel" : 1
 			}
 ,
-			"receptionOSC.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"lecteurVideo.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -32,6 +27,11 @@
 			}
 ,
 			"receptionAudioReseau.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"decomposition.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -51,7 +51,12 @@
 				"local" : 1
 			}
 ,
-			"decomposition.maxpat" : 			{
+			"osc.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"receptionOSC.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -111,6 +116,14 @@
 ,
 			"poudreColoree.png" : 			{
 				"kind" : "imagefile",
+				"local" : 1
+			}
+
+		}
+,
+		"externals" : 		{
+			"OSC-route.mxo" : 			{
+				"kind" : "object",
 				"local" : 1
 			}
 
