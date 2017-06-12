@@ -2,7 +2,7 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -715264326,
+	"modificationdate" : -715179090,
 	"viewrect" : [ 19.0, 64.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -14,6 +14,16 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"assemblage.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/projetS2/ressourcesMAX",
+					"projectrelativepath" : "../../ressourcesMAX"
+				}
+
 			}
 ,
 			"lecteurVideo.maxpat" : 			{
@@ -79,6 +89,11 @@
 		}
 ,
 		"media" : 		{
+			"LigneBasse.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
 			"peinture.jpg" : 			{
 				"kind" : "imagefile",
 				"local" : 1
@@ -86,11 +101,6 @@
 ,
 			"fumeeBleu.jpg" : 			{
 				"kind" : "imagefile",
-				"local" : 1
-			}
-,
-			"LigneBasse.wav" : 			{
-				"kind" : "audiofile",
 				"local" : 1
 			}
 ,
