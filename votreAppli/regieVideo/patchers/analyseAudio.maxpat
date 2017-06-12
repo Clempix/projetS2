@@ -247,6 +247,7 @@
 , 			{
 				"box" : 				{
 					"comment" : "",
+<<<<<<< HEAD
 					"id" : "obj-22",
 					"index" : 7,
 					"maxclass" : "outlet",
@@ -447,6 +448,8 @@
 					"text" : "*~ 100."
 =======
 					"comment" : "",
+=======
+>>>>>>> v52
 					"id" : "obj-13",
 					"index" : 4,
 					"maxclass" : "outlet",
@@ -549,32 +552,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 834.0, 239.0, 158.0, 22.0 ],
-					"style" : "",
-					"text" : "detectionEnveloppe.maxpat"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 858.0, 183.0, 32.0, 22.0 ],
-					"style" : "",
-					"text" : "*~ 3"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -623,9 +600,13 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"outlettype" : [ "" ],
 =======
 					"outlettype" : [ "signal" ],
+>>>>>>> v52
+=======
+					"outlettype" : [ "" ],
 >>>>>>> v52
 					"patching_rect" : [ 403.0, 94.0, 30.0, 30.0 ],
 					"style" : ""
@@ -681,7 +662,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 101.0, 70.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -713,71 +694,6 @@
 					"patching_rect" : [ 55.56488, 267.0, 128.0, 22.0 ],
 					"style" : "",
 					"text" : "pitchDetection.maxpat"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
-					"id" : "obj-51",
-					"index" : 3,
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 688.0, 98.0, 30.0, 30.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-49",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 11,
-					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "" ],
-					"patching_rect" : [ 580.0, 156.0, 170.0, 22.0 ],
-					"style" : "",
-					"text" : "analyseSpectrale_10b.maxpat"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-48",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 848.0, 102.0, 60.0, 20.0 ],
-					"style" : "",
-					"text" : "Percution"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-45",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 670.0, 63.0, 80.0, 20.0 ],
-					"style" : "",
-					"text" : "Melodie voix"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
-					"id" : "obj-42",
-					"index" : 4,
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 858.0, 124.0, 30.0, 30.0 ],
-					"style" : ""
 				}
 
 			}
@@ -814,6 +730,7 @@
 , 			{
 				"patchline" : 				{
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -835,6 +752,8 @@
 					"hidden" : 0,
 					"source" : [ "obj-14", 0 ]
 =======
+=======
+>>>>>>> v52
 					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -861,6 +780,7 @@
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< HEAD
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -898,6 +818,8 @@
 <<<<<<< HEAD
 					"destination" : [ "obj-21", 0 ],
 =======
+=======
+>>>>>>> v52
 					"destination" : [ "obj-15", 0 ],
 >>>>>>> v52
 					"disabled" : 0,
@@ -908,6 +830,7 @@
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< HEAD
 <<<<<<< HEAD
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
@@ -962,6 +885,8 @@
 					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
 =======
+=======
+>>>>>>> v52
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1036,6 +961,7 @@
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< HEAD
 <<<<<<< HEAD
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
@@ -1117,6 +1043,8 @@
 			}
 , 			{
 				"patchline" : 				{
+=======
+>>>>>>> v52
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
