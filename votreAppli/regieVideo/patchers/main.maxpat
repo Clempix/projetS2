@@ -9,15 +9,7 @@
 			"modernui" : 1
 		}
 ,
-<<<<<<< HEAD
-<<<<<<< HEAD
-		"rect" : [ 633.0, 87.0, 1013.0, 831.0 ],
-=======
-		"rect" : [ 389.0, 79.0, 1257.0, 831.0 ],
->>>>>>> v52
-=======
 		"rect" : [ 197.0, 85.0, 1257.0, 831.0 ],
->>>>>>> v52
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,81 +38,17 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-<<<<<<< HEAD
-<<<<<<< HEAD
-					"id" : "obj-10",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 193.0, 88.0, 24.0, 24.0 ],
-=======
-					"data" : 					{
-						"clips" : [ 							{
-								"filename" : "LigneBasse.wav",
-								"filekind" : "audiofile",
-								"loop" : 1,
-								"content_state" : 								{
-									"originallengthms" : [ 0.0 ],
-									"timestretch" : [ 0 ],
-									"formantcorrection" : [ 0 ],
-									"pitchshift" : [ 1.0 ],
-									"quality" : [ "basic" ],
-									"play" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"speed" : [ 1.0 ],
-									"pitchcorrection" : [ 0 ],
-									"followglobaltempo" : [ 0 ],
-									"slurtime" : [ 0.0 ],
-									"mode" : [ "basic" ],
-									"originaltempo" : [ 120.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"basictuning" : [ 440 ]
-								}
-
-							}
- ]
-					}
-,
-					"id" : "obj-12",
-					"maxclass" : "playlist~",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 269.0, 14.0, 150.0, 30.0 ],
->>>>>>> v52
-=======
 					"id" : "obj-15",
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 840.5, 111.5, 45.0, 45.0 ],
->>>>>>> v52
 					"style" : ""
 				}
 
 			}
 , 			{
 				"box" : 				{
-<<<<<<< HEAD
-<<<<<<< HEAD
-					"id" : "obj-4",
-					"maxclass" : "jit.pwindow",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 361.5, 611.0, 224.0, 168.0 ]
-=======
-					"id" : "obj-84",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 743.5, 2.5, 69.0, 20.0 ],
-					"style" : "",
-					"text" : "Ligne aigu "
->>>>>>> v52
-=======
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 4,
@@ -129,45 +57,11 @@
 					"patching_rect" : [ 466.0, 579.0, 116.0, 22.0 ],
 					"style" : "",
 					"text" : "assemblage.maxpat"
->>>>>>> v52
 				}
 
 			}
 , 			{
 				"box" : 				{
-<<<<<<< HEAD
-<<<<<<< HEAD
-					"id" : "obj-17",
-=======
-					"data" : 					{
-						"clips" : [ 							{
-								"filename" : "LigneAigue.wav",
-								"filekind" : "audiofile",
-								"loop" : 1,
-								"content_state" : 								{
-									"originallengthms" : [ 0.0 ],
-									"timestretch" : [ 0 ],
-									"formantcorrection" : [ 0 ],
-									"pitchshift" : [ 1.0 ],
-									"quality" : [ "basic" ],
-									"play" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"speed" : [ 1.0 ],
-									"pitchcorrection" : [ 0 ],
-									"followglobaltempo" : [ 0 ],
-									"slurtime" : [ 0.0 ],
-									"mode" : [ "basic" ],
-									"originaltempo" : [ 120.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"basictuning" : [ 440 ]
-								}
-
-							}
- ]
-					}
-,
-=======
->>>>>>> v52
 					"id" : "obj-11",
 					"maxclass" : "jit.pwindow",
 					"numinlets" : 1,
@@ -206,21 +100,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-19",
->>>>>>> v52
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-					"patching_rect" : [ 369.5, 565.0, 116.0, 22.0 ],
-					"style" : "",
-					"text" : "assemblage.maxpat"
-=======
-					"patching_rect" : [ 886.0, 341.0, 114.0, 22.0 ],
-=======
 					"patching_rect" : [ 889.0, 264.0, 114.0, 22.0 ],
->>>>>>> v52
 					"style" : "",
 					"text" : "colorimetrie.maxpat"
 				}
@@ -236,7 +120,6 @@
 					"patching_rect" : [ 164.0, 268.0, 100.0, 22.0 ],
 					"style" : "",
 					"text" : "miroir.maxpat"
->>>>>>> v52
 				}
 
 			}
@@ -247,15 +130,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-					"patching_rect" : [ 702.0, 71.0, 174.0, 22.0 ],
-=======
-					"patching_rect" : [ 74.0, 70.0, 174.0, 22.0 ],
->>>>>>> v52
-=======
 					"patching_rect" : [ 450.0, 54.0, 174.0, 22.0 ],
->>>>>>> v52
 					"style" : "",
 					"text" : "receptionAudioReseau.maxpat"
 				}
@@ -263,43 +138,12 @@
 			}
 , 			{
 				"box" : 				{
-<<<<<<< HEAD
-					"id" : "obj-15",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-<<<<<<< HEAD
-					"patching_rect" : [ 306.5, 40.0, 277.0, 20.0 ],
-=======
-					"patching_rect" : [ 31.0, 633.0, 277.0, 20.0 ],
->>>>>>> v52
-					"style" : "",
-					"text" : "1 Ligne basse 2 ligne aigu 3 Melodie voix 4 percu "
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-16",
-					"maxclass" : "newobj",
-					"numinlets" : 4,
-<<<<<<< HEAD
-					"numoutlets" : 6,
-					"outlettype" : [ "float", "float", "float", "", "", "" ],
-					"patching_rect" : [ 361.5, 65.0, 124.0, 22.0 ],
-=======
-					"numoutlets" : 7,
-					"outlettype" : [ "float", "float", "float", "bang", "bang", "", "" ],
-					"patching_rect" : [ 459.0, 142.0, 124.0, 22.0 ],
->>>>>>> v52
-=======
 					"id" : "obj-16",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 5,
 					"outlettype" : [ "float", "float", "float", "bang", "bang" ],
 					"patching_rect" : [ 415.0, 104.0, 263.0, 22.0 ],
->>>>>>> v52
 					"style" : "",
 					"text" : "analyseAudio.maxpat"
 				}
@@ -312,15 +156,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-					"patching_rect" : [ 728.0, 323.0, 224.0, 168.0 ]
-=======
-					"patching_rect" : [ 882.0, 425.0, 224.0, 168.0 ]
->>>>>>> v52
-=======
 					"patching_rect" : [ 885.0, 348.0, 224.0, 168.0 ]
->>>>>>> v52
 				}
 
 			}
@@ -331,15 +167,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-					"patching_rect" : [ 489.0, 323.0, 224.0, 168.0 ]
-=======
-					"patching_rect" : [ 617.0, 425.0, 224.0, 168.0 ]
->>>>>>> v52
-=======
 					"patching_rect" : [ 620.0, 348.0, 224.0, 168.0 ]
->>>>>>> v52
 				}
 
 			}
@@ -350,15 +178,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-					"patching_rect" : [ 255.0, 323.0, 224.0, 168.0 ]
-=======
-					"patching_rect" : [ 366.0, 425.0, 224.0, 168.0 ]
->>>>>>> v52
-=======
 					"patching_rect" : [ 369.0, 348.0, 224.0, 168.0 ]
->>>>>>> v52
 				}
 
 			}
@@ -414,8 +234,6 @@
 			}
 , 			{
 				"box" : 				{
-<<<<<<< HEAD
-=======
 					"id" : "obj-4",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -429,7 +247,6 @@
 			}
 , 			{
 				"box" : 				{
->>>>>>> v52
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -444,24 +261,9 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-<<<<<<< HEAD
-					"destination" : [ "obj-17", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"order" : 0,
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-=======
 					"destination" : [ "", 0 ],
->>>>>>> v52
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -595,7 +397,7 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"order" : 3,
-					"source" : [ "obj-10", 0 ]
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -605,7 +407,7 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"order" : 2,
-					"source" : [ "obj-10", 0 ]
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -615,7 +417,7 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"order" : 1,
-					"source" : [ "obj-10", 0 ]
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -625,62 +427,7 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"order" : 0,
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-16", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-16", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-16", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-17", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"order" : 0,
-					"source" : [ "obj-5", 0 ]
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -689,50 +436,30 @@
 					"destination" : [ "", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-5", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-<<<<<<< HEAD
-					"destination" : [ "obj-17", 2 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"order" : 1,
-=======
 					"destination" : [ "", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
->>>>>>> v52
 					"source" : [ "obj-6", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-<<<<<<< HEAD
-					"destination" : [ "obj-8", 0 ],
-=======
 					"destination" : [ "", 0 ],
->>>>>>> v52
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-6", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-<<<<<<< HEAD
-					"destination" : [ "obj-17", 3 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"order" : 1,
-					"source" : [ "obj-7", 0 ]
-=======
 					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -782,27 +509,11 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-16", 0 ]
->>>>>>> v52
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-<<<<<<< HEAD
-					"destination" : [ "obj-9", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-<<<<<<< HEAD
-					"order" : 0,
-=======
-					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-=======
->>>>>>> v52
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -835,91 +546,10 @@
 					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
->>>>>>> v52
 					"source" : [ "obj-7", 0 ]
 				}
 
 			}
-<<<<<<< HEAD
- ],
-		"parameters" : 		{
-<<<<<<< HEAD
-			"obj-16::obj-49::obj-2::obj-19::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
-			"obj-16::obj-49::obj-6::obj-19::obj-16" : [ "flonum[3]", "flonum[1]", 0 ],
-			"obj-16::obj-49::obj-14::obj-19::obj-13" : [ "flonum[8]", "flonum", 0 ],
-			"obj-16::obj-49::obj-22::obj-19::obj-13" : [ "flonum[12]", "flonum", 0 ],
-			"obj-16::obj-49::obj-16::obj-19::obj-16" : [ "flonum[19]", "flonum[1]", 0 ],
-			"obj-16::obj-82::obj-6::obj-19::obj-13" : [ "flonum[22]", "flonum", 0 ],
-			"obj-16::obj-82::obj-14::obj-19::obj-16" : [ "flonum[28]", "flonum[1]", 0 ],
-			"obj-16::obj-82::obj-22::obj-19::obj-13" : [ "flonum[33]", "flonum", 0 ],
-			"obj-16::obj-82::obj-16::obj-19::obj-16" : [ "flonum[39]", "flonum[1]", 0 ],
-			"obj-16::obj-7::obj-13" : [ "flonum[40]", "flonum", 0 ],
-			"obj-16::obj-49::obj-8::obj-19::obj-13" : [ "flonum[5]", "flonum", 0 ],
-			"obj-16::obj-49::obj-14::obj-19::obj-16" : [ "flonum[9]", "flonum[1]", 0 ],
-			"obj-16::obj-49::obj-20::obj-19::obj-13" : [ "flonum[15]", "flonum", 0 ],
-			"obj-16::obj-49::obj-16::obj-19::obj-13" : [ "flonum[18]", "flonum", 0 ],
-			"obj-16::obj-82::obj-8::obj-19::obj-16" : [ "flonum[25]", "flonum[1]", 0 ],
-			"obj-16::obj-82::obj-14::obj-19::obj-13" : [ "flonum[29]", "flonum", 0 ],
-			"obj-16::obj-82::obj-20::obj-19::obj-16" : [ "flonum[35]", "flonum[1]", 0 ],
-			"obj-16::obj-82::obj-16::obj-19::obj-13" : [ "flonum[38]", "flonum", 0 ],
-			"obj-16::obj-49::obj-8::obj-19::obj-16" : [ "flonum[4]", "flonum[1]", 0 ],
-			"obj-16::obj-49::obj-24::obj-19::obj-13" : [ "flonum[11]", "flonum", 0 ],
-			"obj-16::obj-49::obj-20::obj-19::obj-16" : [ "flonum[14]", "flonum[1]", 0 ],
-			"obj-16::obj-82::obj-2::obj-19::obj-16" : [ "flonum[21]", "flonum[1]", 0 ],
-			"obj-16::obj-82::obj-8::obj-19::obj-13" : [ "flonum[24]", "flonum", 0 ],
-			"obj-16::obj-82::obj-24::obj-19::obj-16" : [ "flonum[30]", "flonum[1]", 0 ],
-			"obj-16::obj-82::obj-20::obj-19::obj-13" : [ "flonum[34]", "flonum", 0 ],
-			"obj-16::obj-49::obj-2::obj-19::obj-13" : [ "flonum", "flonum", 0 ],
-			"obj-16::obj-49::obj-10::obj-19::obj-16" : [ "flonum[7]", "flonum[1]", 0 ],
-			"obj-16::obj-49::obj-24::obj-19::obj-16" : [ "flonum[10]", "flonum[1]", 0 ],
-			"obj-16::obj-49::obj-18::obj-19::obj-13" : [ "flonum[16]", "flonum", 0 ],
-			"obj-16::obj-82::obj-2::obj-19::obj-13" : [ "flonum[20]", "flonum", 0 ],
-			"obj-16::obj-82::obj-10::obj-19::obj-13" : [ "flonum[26]", "flonum", 0 ],
-			"obj-16::obj-82::obj-24::obj-19::obj-13" : [ "flonum[31]", "flonum", 0 ],
-			"obj-16::obj-82::obj-18::obj-19::obj-16" : [ "flonum[36]", "flonum[1]", 0 ],
-			"obj-16::obj-49::obj-6::obj-19::obj-13" : [ "flonum[2]", "flonum", 0 ],
-			"obj-16::obj-49::obj-10::obj-19::obj-13" : [ "flonum[6]", "flonum", 0 ],
-			"obj-16::obj-49::obj-22::obj-19::obj-16" : [ "flonum[13]", "flonum[1]", 0 ],
-			"obj-16::obj-49::obj-18::obj-19::obj-16" : [ "flonum[17]", "flonum[1]", 0 ],
-			"obj-16::obj-82::obj-6::obj-19::obj-16" : [ "flonum[23]", "flonum[1]", 0 ],
-			"obj-16::obj-82::obj-10::obj-19::obj-16" : [ "flonum[27]", "flonum[1]", 0 ],
-			"obj-16::obj-82::obj-22::obj-19::obj-16" : [ "flonum[32]", "flonum[1]", 0 ],
-			"obj-16::obj-82::obj-18::obj-19::obj-13" : [ "flonum[37]", "flonum", 0 ],
-			"obj-16::obj-7::obj-16" : [ "flonum[41]", "flonum[1]", 0 ]
-=======
-			"obj-16::obj-49::obj-18::obj-19::obj-16" : [ "flonum[4]", "flonum[1]", 0 ],
-			"obj-16::obj-49::obj-24::obj-19::obj-13" : [ "flonum[11]", "flonum", 0 ],
-			"obj-16::obj-49::obj-10::obj-19::obj-13" : [ "flonum[15]", "flonum", 0 ],
-			"obj-16::obj-49::obj-2::obj-19::obj-13" : [ "flonum[21]", "flonum", 0 ],
-			"obj-16::obj-7::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
-			"obj-16::obj-7::obj-13" : [ "flonum", "flonum", 0 ],
-			"obj-16::obj-49::obj-20::obj-19::obj-13" : [ "flonum[7]", "flonum", 0 ],
-			"obj-16::obj-49::obj-24::obj-19::obj-16" : [ "flonum[10]", "flonum[1]", 0 ],
-			"obj-16::obj-49::obj-8::obj-19::obj-16" : [ "flonum[16]", "flonum[1]", 0 ],
-			"obj-16::obj-49::obj-2::obj-19::obj-16" : [ "flonum[20]", "flonum[1]", 0 ],
-			"obj-16::obj-49::obj-16::obj-19::obj-16" : [ "flonum[2]", "flonum[1]", 0 ],
-			"obj-16::obj-49::obj-20::obj-19::obj-16" : [ "flonum[6]", "flonum[1]", 0 ],
-			"obj-16::obj-49::obj-14::obj-19::obj-16" : [ "flonum[12]", "flonum[1]", 0 ],
-			"obj-16::obj-49::obj-8::obj-19::obj-13" : [ "flonum[17]", "flonum", 0 ],
-			"obj-16::obj-49::obj-16::obj-19::obj-13" : [ "flonum[3]", "flonum", 0 ],
-			"obj-16::obj-49::obj-22::obj-19::obj-13" : [ "flonum[9]", "flonum", 0 ],
-			"obj-16::obj-49::obj-14::obj-19::obj-13" : [ "flonum[13]", "flonum", 0 ],
-			"obj-16::obj-49::obj-6::obj-19::obj-16" : [ "flonum[18]", "flonum[1]", 0 ],
-			"obj-16::obj-49::obj-18::obj-19::obj-13" : [ "flonum[5]", "flonum", 0 ],
-			"obj-16::obj-49::obj-22::obj-19::obj-16" : [ "flonum[8]", "flonum[1]", 0 ],
-			"obj-16::obj-49::obj-10::obj-19::obj-16" : [ "flonum[14]", "flonum[1]", 0 ],
-			"obj-16::obj-49::obj-6::obj-19::obj-13" : [ "flonum[19]", "flonum", 0 ]
->>>>>>> v52
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "lecteurVideo.maxpat",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-=======
->>>>>>> v52
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 2 ],
@@ -964,17 +594,11 @@
 				"implicit" : 1
 			}
 , 			{
-<<<<<<< HEAD
-				"name" : "assemblage.maxpat",
-=======
 				"name" : "miroir.maxpat",
->>>>>>> v52
 				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
-<<<<<<< HEAD
-=======
 , 			{
 				"name" : "colorimetrie.maxpat",
 				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
@@ -999,22 +623,6 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
-<<<<<<< HEAD
-, 			{
-				"name" : "LigneAigue.wav",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/media",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "LigneBasse.wav",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/media",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
->>>>>>> v52
-=======
->>>>>>> v52
  ],
 		"autosave" : 0,
 		"styles" : [ 			{

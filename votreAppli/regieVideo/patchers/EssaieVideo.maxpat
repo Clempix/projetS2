@@ -43,15 +43,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-<<<<<<< HEAD
-					"patching_rect" : [ 448.5, 170.0, 49.0, 22.0 ],
-					"style" : "",
-					"text" : "* 0\\,002"
-=======
 					"patching_rect" : [ 448.5, 170.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "* 2"
->>>>>>> v52
 				}
 
 			}
@@ -72,17 +66,10 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-<<<<<<< HEAD
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 383.5, 158.0, 49.0, 22.0 ],
-					"style" : "",
-					"text" : "* 0.003"
-=======
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 383.5, 158.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "* 3"
->>>>>>> v52
 				}
 
 			}
@@ -92,17 +79,10 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-<<<<<<< HEAD
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 518.5, 170.0, 49.0, 22.0 ],
-					"style" : "",
-					"text" : "* 0.005"
-=======
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 518.5, 170.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "* 5"
->>>>>>> v52
 				}
 
 			}
@@ -140,22 +120,6 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
-<<<<<<< HEAD
-									"speed" : [ 1.0 ],
-									"pitchcorrection" : [ 0 ],
-									"originaltempo" : [ 120.0 ],
-									"originallengthms" : [ 0.0 ],
-									"formantcorrection" : [ 0 ],
-									"play" : [ 0 ],
-									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"timestretch" : [ 0 ],
-									"quality" : [ "basic" ],
-									"pitchshift" : [ 1.0 ],
-									"formant" : [ 1.0 ],
-									"slurtime" : [ 0.0 ],
-=======
 									"originallengthms" : [ 0.0 ],
 									"timestretch" : [ 0 ],
 									"formantcorrection" : [ 0 ],
@@ -170,7 +134,6 @@
 									"mode" : [ "basic" ],
 									"originaltempo" : [ 120.0 ],
 									"originallength" : [ 0.0, "ticks" ],
->>>>>>> v52
 									"basictuning" : [ 440 ]
 								}
 
@@ -339,50 +302,6 @@
 			}
  ],
 		"parameters" : 		{
-<<<<<<< HEAD
-			"obj-4::obj-82::obj-16::obj-19::obj-16" : [ "flonum[2]", "flonum[1]", 0 ],
-			"obj-4::obj-82::obj-20::obj-19::obj-13" : [ "flonum[7]", "flonum", 0 ],
-			"obj-4::obj-82::obj-14::obj-19::obj-13" : [ "flonum[13]", "flonum", 0 ],
-			"obj-4::obj-82::obj-8::obj-19::obj-13" : [ "flonum[17]", "flonum", 0 ],
-			"obj-4::obj-49::obj-16::obj-19::obj-13" : [ "flonum[23]", "flonum", 0 ],
-			"obj-4::obj-49::obj-20::obj-19::obj-16" : [ "flonum[26]", "flonum[1]", 0 ],
-			"obj-4::obj-49::obj-14::obj-19::obj-13" : [ "flonum[33]", "flonum", 0 ],
-			"obj-4::obj-7::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
-			"obj-4::obj-49::obj-8::obj-19::obj-16" : [ "flonum[36]", "flonum[1]", 0 ],
-			"obj-4::obj-82::obj-16::obj-19::obj-13" : [ "flonum[3]", "flonum", 0 ],
-			"obj-4::obj-82::obj-22::obj-19::obj-16" : [ "flonum[8]", "flonum[1]", 0 ],
-			"obj-4::obj-82::obj-14::obj-19::obj-16" : [ "flonum[12]", "flonum[1]", 0 ],
-			"obj-4::obj-82::obj-6::obj-19::obj-16" : [ "flonum[18]", "flonum[1]", 0 ],
-			"obj-4::obj-49::obj-16::obj-19::obj-16" : [ "flonum[22]", "flonum[1]", 0 ],
-			"obj-4::obj-49::obj-22::obj-19::obj-16" : [ "flonum[28]", "flonum[1]", 0 ],
-			"obj-4::obj-49::obj-14::obj-19::obj-16" : [ "flonum[32]", "flonum[1]", 0 ],
-			"obj-4::obj-49::obj-6::obj-19::obj-13" : [ "flonum[39]", "flonum", 0 ],
-			"obj-4::obj-82::obj-18::obj-19::obj-16" : [ "flonum[4]", "flonum[1]", 0 ],
-			"obj-4::obj-82::obj-22::obj-19::obj-13" : [ "flonum[9]", "flonum", 0 ],
-			"obj-4::obj-82::obj-10::obj-19::obj-13" : [ "flonum[15]", "flonum", 0 ],
-			"obj-4::obj-82::obj-6::obj-19::obj-13" : [ "flonum[19]", "flonum", 0 ],
-			"obj-4::obj-49::obj-18::obj-19::obj-13" : [ "flonum[25]", "flonum", 0 ],
-			"obj-4::obj-49::obj-22::obj-19::obj-13" : [ "flonum[29]", "flonum", 0 ],
-			"obj-4::obj-49::obj-10::obj-19::obj-16" : [ "flonum[34]", "flonum[1]", 0 ],
-			"obj-4::obj-49::obj-6::obj-19::obj-16" : [ "flonum[38]", "flonum[1]", 0 ],
-			"obj-4::obj-82::obj-18::obj-19::obj-13" : [ "flonum[5]", "flonum", 0 ],
-			"obj-4::obj-82::obj-24::obj-19::obj-13" : [ "flonum[11]", "flonum", 0 ],
-			"obj-4::obj-82::obj-10::obj-19::obj-16" : [ "flonum[14]", "flonum[1]", 0 ],
-			"obj-4::obj-82::obj-2::obj-19::obj-13" : [ "flonum[21]", "flonum", 0 ],
-			"obj-4::obj-49::obj-18::obj-19::obj-16" : [ "flonum[24]", "flonum[1]", 0 ],
-			"obj-4::obj-49::obj-24::obj-19::obj-16" : [ "flonum[30]", "flonum[1]", 0 ],
-			"obj-4::obj-49::obj-10::obj-19::obj-13" : [ "flonum[35]", "flonum", 0 ],
-			"obj-4::obj-49::obj-2::obj-19::obj-16" : [ "flonum[40]", "flonum[1]", 0 ],
-			"obj-4::obj-7::obj-13" : [ "flonum", "flonum", 0 ],
-			"obj-4::obj-82::obj-20::obj-19::obj-16" : [ "flonum[6]", "flonum[1]", 0 ],
-			"obj-4::obj-82::obj-24::obj-19::obj-16" : [ "flonum[10]", "flonum[1]", 0 ],
-			"obj-4::obj-82::obj-8::obj-19::obj-16" : [ "flonum[16]", "flonum[1]", 0 ],
-			"obj-4::obj-82::obj-2::obj-19::obj-16" : [ "flonum[20]", "flonum[1]", 0 ],
-			"obj-4::obj-49::obj-20::obj-19::obj-13" : [ "flonum[27]", "flonum", 0 ],
-			"obj-4::obj-49::obj-24::obj-19::obj-13" : [ "flonum[31]", "flonum", 0 ],
-			"obj-4::obj-49::obj-8::obj-19::obj-13" : [ "flonum[37]", "flonum", 0 ],
-			"obj-4::obj-49::obj-2::obj-19::obj-13" : [ "flonum[41]", "flonum", 0 ]
-=======
 			"obj-4::obj-49::obj-8::obj-19::obj-13" : [ "flonum[37]", "flonum", 0 ],
 			"obj-4::obj-49::obj-18::obj-19::obj-16" : [ "flonum[24]", "flonum[1]", 0 ],
 			"obj-4::obj-49::obj-2::obj-19::obj-13" : [ "flonum[41]", "flonum", 0 ],
@@ -425,7 +344,6 @@
 			"obj-4::obj-82::obj-10::obj-19::obj-16" : [ "flonum[14]", "flonum[1]", 0 ],
 			"obj-4::obj-49::obj-14::obj-19::obj-16" : [ "flonum[32]", "flonum[1]", 0 ],
 			"obj-4::obj-82::obj-6::obj-19::obj-13" : [ "flonum[19]", "flonum", 0 ]
->>>>>>> v52
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -483,9 +401,6 @@
 				"implicit" : 1
 			}
  ],
-<<<<<<< HEAD
-		"autosave" : 0
-=======
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
@@ -624,7 +539,6 @@
 				"multi" : 0
 			}
  ]
->>>>>>> v52
 	}
 
 }

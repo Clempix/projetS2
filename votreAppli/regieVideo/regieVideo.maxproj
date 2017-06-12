@@ -1,52 +1,42 @@
 {
 	"name" : "regieVideo",
 	"version" : 1,
-<<<<<<< HEAD
-	"creationdate" : -715180550,
-	"modificationdate" : -715180434,
-	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
-=======
 	"creationdate" : -721919246,
-	"modificationdate" : -715179090,
+	"modificationdate" : -714869654,
 	"viewrect" : [ 19.0, 64.0, 300.0, 500.0 ],
->>>>>>> v52
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"analyseAudio.maxpat" : 			{
+			"main.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
 			}
 ,
-<<<<<<< HEAD
-			"analyseSpectrale_1b.maxpat" : 			{
-=======
-			"assemblage.maxpat" : 			{
+			"receptionOSC.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Documents/projetS2/ressourcesMAX",
-					"projectrelativepath" : "../../ressourcesMAX"
-				}
-
+				"local" : 1
 			}
 ,
 			"lecteurVideo.maxpat" : 			{
->>>>>>> v52
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"analyseSpectrale_10b.maxpat" : 			{
+			"pitchDetection.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"assemblage.maxpat" : 			{
+			"receptionAudioReseau.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"miroir.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -56,7 +46,32 @@
 				"local" : 1
 			}
 ,
+			"mix.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"decomposition.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"assemblage.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"analyseSpectrale_10b.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"analyseSpectrale_1b.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"filtreBande.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -70,46 +85,9 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+
+		}
 ,
-			"filtreBande.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"lecteurVideo.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"main.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"miroir.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"miroir2.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-<<<<<<< HEAD
-			"mix.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"pitchDetection.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"receptionAudioReseau.maxpat" : 			{
-				"kind" : "patcher",
-=======
 		"media" : 		{
 			"LigneBasse.wav" : 			{
 				"kind" : "audiofile",
@@ -123,18 +101,18 @@
 ,
 			"fumeeBleu.jpg" : 			{
 				"kind" : "imagefile",
->>>>>>> v52
 				"local" : 1
 			}
 ,
-			"routerAudio.maxpat" : 			{
-				"kind" : "patcher",
+			"eau.png" : 			{
+				"kind" : "imagefile",
 				"local" : 1
 			}
-
-		}
 ,
-		"media" : 		{
+			"poudreColoree.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
 
 		}
 
