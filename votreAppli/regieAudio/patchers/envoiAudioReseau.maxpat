@@ -92,7 +92,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 87.0, 45.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -195,7 +195,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 161.0, 266.0, 232.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.net.send @ip 192.168.0.26 @port 8002"
+					"text" : "jit.net.send @ip 192.168.0.26 @port 8003"
 				}
 
 			}

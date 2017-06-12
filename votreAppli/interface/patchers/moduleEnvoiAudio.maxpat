@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 975.0, 84.0, 1451.0, 473.0 ],
+		"rect" : [ 34.0, 79.0, 993.0, 784.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -931,9 +931,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 525.0, 461.0, 137.0, 22.0 ],
+					"patching_rect" : [ 525.0, 461.0, 140.0, 22.0 ],
 					"style" : "",
-					"text" : "udpsend 127.0.01 8002"
+					"text" : "udpsend 127.0.0.1 8002"
 				}
 
 			}

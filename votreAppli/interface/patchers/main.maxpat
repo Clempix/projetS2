@@ -38,6 +38,31 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1063.0, 323.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1063.0, 414.0, 168.0, 22.0 ],
+					"style" : "",
+					"text" : "envoiOSCRegieVideo.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-41",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -220,7 +245,7 @@
 				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
-					"numinlets" : 28,
+					"numinlets" : 26,
 					"numoutlets" : 0,
 					"patching_rect" : [ 283.0, 372.0, 531.0, 22.0 ],
 					"style" : "",
@@ -492,6 +517,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -700,6 +734,12 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "moduleEnvoiAudio.maxpat",
+				"bootpath" : "~/Documents/projetS2/votreAppli/interface/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "envoiOSCRegieVideo.maxpat",
 				"bootpath" : "~/Documents/projetS2/votreAppli/interface/patchers",
 				"type" : "JSON",
 				"implicit" : 1
